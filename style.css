@@ -1,0 +1,16 @@
+html{
+    height: 100%;
+    background-image: url(bacround.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+body{
+    backdrop-filter: blur(5px);
+}
+.login{
+    color:white;
+    padding-left: 75%;
+    backdrop-filter: blur(5px);
+}
