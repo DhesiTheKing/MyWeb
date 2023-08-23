@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Index page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="login">
-            <h1>USER LOGIN</h1>
-            <label for="username">Username:</label>
-            <input type="text" placeholder="Ex:Dhesigan" name="username" required>
-            <br><br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" required>
-            <br><br>
-            <input type="checkbox" checked="checked">Remenber me
-            <br>
-            <br>
-            <button type="Submit">Login</button>
-        </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p>_</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="MiniProject.css">
+</head>
+<body>
+    <h1>WELCOME TO நீங்களும் வெல்லலாம் பத்து பைசா</h1><br><br>
+    <h2>உங்களுக்கன <span id="qno"></span> கேள்வி:</h2><br><br>
+    <h3 id="q"></h3>
+    <br>
+    <div class="quiz1">
+        <button class="op op1" onclick="quizzScore(1)" id="op1"> </button><br><br>
+        <button class="op op2" onclick="quizzScore(2)" id="op2"> </button><br><br>
+        <button class="op op3" onclick="quizzScore(3)" id="op3"> </button><br><br>
+        <button class="op op4" onclick="quizzScore(4)" id="op4"> </button><br><br>   
+    </div>
+    <script src="MiniProject.js"></script>
+</body>
 </html>
