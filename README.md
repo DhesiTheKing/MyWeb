@@ -1,5 +1,5 @@
 # MyWeb
-This miniproject is give to me as a task that is create a quiz using html,css and javascript.
-In this miniproject i put funny quiz questions and answers which is used in lollu saba neengalum vellalam episodes.  
+This mini-project was assigned to me as a task, which involves creating a quiz using HTML, CSS, and JavaScript.
+For this project, I included humorous quiz questions and answers inspired by the 'Lollu Sabha Neengalum Vellalam' episodes  
 # View this Website🏹
 https://dhesitheking.github.io/MyWeb
